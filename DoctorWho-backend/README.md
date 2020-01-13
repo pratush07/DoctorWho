@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The backend APIs for DoctorWho are written in python. These APIs will be called by the mobile app made in Android. 
+The backend APIs for DoctorWho are written in python. These APIs will be called by the mobile app made in Android. Please note that AlchemyAPI was used for sentiment analysis which has been now archived. https://github.com/AlchemyAPI/alchemyapi_python
 
 ## Prerequisite
 
