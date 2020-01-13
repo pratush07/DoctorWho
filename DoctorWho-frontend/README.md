@@ -1,4 +1,4 @@
-# DoctorWho Backend
+# DoctorWho Frontend
 
 ## Introduction
 The project was build for target version 22 (Lollipop). 
