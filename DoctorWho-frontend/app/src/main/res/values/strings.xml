@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DocFinder</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="app_id">885044104876328</string>
+    <string name="title_activity_user_type">UserTypeActivity</string>
+    <string name="title_activity_home_screen">Search Doctors</string>
+    <string name="title_activity_no_internet">NoInternetActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_doctors_list">Doctors</string>
+    <string name="title_activity_doc_type">Doctor info</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_doc_appointment">Appointments</string>
+    <string name="title_activity_book_appointment">BookAppointment</string>
+    <string name="title_activity_thankyou">Thankyou</string>
+    <string name="title_activity_user_appointment">Appointments</string>
+</resources>

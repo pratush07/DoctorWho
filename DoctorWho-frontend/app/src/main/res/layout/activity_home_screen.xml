@@ -1,0 +1,37 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/drawer_layout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.pratush.docfinder.activities.HomeScreenActivity">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchdoc"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="40dp"/>
+
+        <ListView
+            android:layout_width="249dp"
+            android:layout_height="408dp"
+            android:id="@+id/categories"
+            android:layout_gravity="center_horizontal|bottom"
+            android:transcriptMode="alwaysScroll"
+            />
+
+
+    </FrameLayout>
+
+
+    <fragment android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/navigation_drawer_width" android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="com.example.pratush.docfinder.activities.NavigationDrawerFragment"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_light"
+    tools:context="com.example.pratush.docfinder.activities.LoginActivity">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fbLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:alpha="0.8"
+        android:onClick="fbauthentication"
+        android:layout_alignTop="@+id/loadBarLogin"
+        android:layout_alignRight="@+id/googleLoginButton"
+        android:layout_alignEnd="@+id/googleLoginButton" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="132dp"
+        android:alpha="0.8"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadBarLogin"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/progress"
+        android:visibility="invisible"/>
+</RelativeLayout>
